@@ -1,0 +1,10 @@
+html {
+	background-color: gray;
+}
+
+img {
+	margin: 2px;
+	max-width: 32%;
+	height: auto;
+	min-width: 32%;
+}

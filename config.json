@@ -1,0 +1,15 @@
+{
+  "folderSource": "source",
+  "folderCompiled": "release",
+  "name": "image-manager",
+  "sourceFiles": [
+    "source/module-head",
+    "source/util.js",
+    "source/image-cache.js",
+    "source/image-helper.js",
+    "source/image-cancellable-loader.js",
+    "source/image-loader.js",
+    "source/image-manager-main.js",
+    "source/module-foot"
+  ]
+}

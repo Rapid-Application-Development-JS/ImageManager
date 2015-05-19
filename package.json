@@ -1,0 +1,61 @@
+{
+  "authors": [
+    "Anton Trofimenko <a.trofimenko@mobidev.biz> (http://mobidev.biz/)"
+  ],
+  "bugs": {
+    "url": "https://github.com/Rapid-Application-Development-JS/ImageManager/issues"
+  },
+  "contributors": [
+    {
+      "email": "a.trofimenko@mobidev.biz",
+      "name": "Anton Trofimenko"
+    }
+  ],
+  "dependencies": {
+    "cachelru": "*"
+  },
+  "description": "Download image manager plus cache manager.",
+  "devDependencies": {
+    "grunt": "^0.4.*",
+    "grunt-contrib-clean": "^0.6.*",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.*",
+    "grunt-contrib-uglify": "^0.9.*",
+    "grunt-stripcomments": "^0.3.*",
+    "gulp": "^3.*",
+    "gulp-concat": "^2.5.2",
+    "gulp-rename": "^1.2.*",
+    "gulp-sourcemaps": "^1.5.*",
+    "gulp-uglify": "^1.2.0",
+    "uglifyjs": "^2.*"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "example",
+    "lib": "source",
+    "man": "man"
+  },
+  "homepage": "https://github.com/Rapid-Application-Development-JS/ImageManager",
+  "keywords": [
+    "image",
+    "manager",
+    "image manager",
+    "image download"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/Rapid-Application-Development-JS/ImageManager/blob/master/LICENSE.md"
+  },
+  "main": [
+    "release/image-manager.min.js",
+    "release/image-manager.min.js.map"
+  ],
+  "name": "image-manager",
+  "private": false,
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rapid-Application-Development-JS/ImageManager.git"
+  },
+  "version": "1.0.0"
+}
