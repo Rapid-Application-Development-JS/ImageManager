@@ -32,11 +32,11 @@ imageManager.cacheAdd({
 
 Add image to list, put it into cache.
 
-> cacheClear ()
+##### cacheClear ()
 
 Clear cache from all images.
 
-> cacheGet (src: String): boolean|Object
+##### cacheGet (src: String): boolean|Object
 
 ```javascript
 imageManager.cacheGet("http://to.some/image.img");
@@ -45,7 +45,7 @@ imageManager.cacheGet("http://to.some/image.img");
 
 Get information about cached image.
 
-> cacheList (): Array
+##### cacheList (): Array
 
 ```javascript
 imageManager.cacheList();
@@ -54,7 +54,7 @@ imageManager.cacheList();
 
 List of image url's in cache.
 
-> cacheRemove (src: String): null|Object
+##### cacheRemove (src: String): null|Object
 
 ```javascript
 imageManager.cacheRemove("http://to.some/image.img");
@@ -63,7 +63,7 @@ imageManager.cacheRemove("http://to.some/image.img");
 
 Remove image from cache.
 
-> configGet (): Object
+##### configGet (): Object
 
 ```javascript
 imageManager.configGet();
@@ -79,7 +79,7 @@ imageManager.configGet();
 
 Gets the settings for downloading images.
 
-> configReset ()
+##### configReset ()
 
 ```javascript
 imageManager.configReset();
@@ -87,7 +87,7 @@ imageManager.configReset();
 
 Resets the configuration.
 
-> configSet (configName: Object|String, configValue: *)
+##### configSet (configName: Object|String, configValue: *)
 
 ```javascript
 
@@ -103,7 +103,7 @@ imageManager.configSet("onSuccess", function (image) {
 
 Set configuration parameter.
 
-> imageManager.hasSource (srcUrl: String): boolean
+##### imageManager.hasSource (srcUrl: String): boolean
 
 ```javascript
 imageManager.hasSource("http://to.some/image.img");
@@ -111,7 +111,7 @@ imageManager.hasSource("http://to.some/image.img");
 
 Is URL in the image list.
 
-> loadImage (srcUrl: String, options: Object): boolean|Number
+##### loadImage (srcUrl: String, options: Object): boolean|Number
 
 ```javascript
 imageManager.loadImage("http://to.some/image.img", {
@@ -137,7 +137,7 @@ imageManager.loadImage("http://to.some/image.img", {
 
 Adds an object to the image list.
 
-> onFinish: null|Fucntion
+##### onFinish: null|Fucntion
 
 ```javascript
 imageManager.onFinish = function () {
@@ -147,7 +147,7 @@ imageManager.onFinish = function () {
 
 Callback called when everything is done.
 
-> pauseAll ()
+##### pauseAll ()
 
 ```javascript
 imageManager.pauseAll();
@@ -155,7 +155,7 @@ imageManager.pauseAll();
 
 Prevent all not started downloads.
 
-> pauseBySrc (srcUrl: String): Array|boolean|Object
+##### pauseBySrc (srcUrl: String): Array|boolean|Object
 
 ```javascript
 imageManager.pauseBySrc("http://to.some/image.img");
@@ -164,7 +164,7 @@ imageManager.pauseBySrc(["http://to.some/image_1.img", "http://to.some/image_2.i
 
 Prevent image from being downloaded.
 
-> startAll ()
+##### startAll ()
 
 ```javascript
 imageManager.startAll();
@@ -172,7 +172,7 @@ imageManager.startAll();
 
 Start all not started downloads.
 
-> startBySrc (srcUrl: String): Array|boolean
+##### startBySrc (srcUrl: String): Array|boolean
 
 ```javascript
 imageManager.startBySrc("http://to.some/image.img");
